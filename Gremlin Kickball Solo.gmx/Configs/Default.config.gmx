@@ -359,5 +359,12 @@
     <option_winphone_tile_type>0</option_winphone_tile_type>
     <option_writeerrors>False</option_writeerrors>
   </Options>
-  <ConfigConstants/>
+  <ConfigConstants>
+    <constants number="4">
+      <constant name="__p1">0</constant>
+      <constant name="__p2">1</constant>
+      <constant name="__p3">2</constant>
+      <constant name="__p4">3</constant>
+    </constants>
+  </ConfigConstants>
 </Config>
