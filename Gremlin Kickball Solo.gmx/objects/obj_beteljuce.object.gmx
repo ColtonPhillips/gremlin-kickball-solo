@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_init_grep_system();
-scr_init_grip_system();
+            <string>//scr_init_grep_system();
+//scr_init_grip_system();
 s_emit = audio_emitter_create();
 score = 0;
 physics_apply_force(phy_com_x,phy_com_y,irandom_range(-100,100),0);
@@ -34,6 +34,8 @@ physics_apply_force(phy_com_x,phy_com_y,irandom_range(-100,100),0);
 physics_apply_force(phy_com_x,phy_com_y,irandom_range(-10,10),0);
 
 physics_apply_force(phy_com_x,phy_com_y,irandom_range(-10,10),0);
+
+os_powersave_enable(false);
 </string>
           </argument>
         </arguments>
@@ -79,22 +81,22 @@ physics_apply_force(phy_com_x,phy_com_y,irandom_range(-10,10),0);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_mover_asdw_gremlin();
-scr_mover_arrow_keys_gremlin();
-if (gamepad_is_connected(0)){
-    scr_mover_gamepad_gremlin(0);
+            <string>//scr_mover_asdw_gremlin();
+//scr_mover_arrow_keys_gremlin();
+//if (gamepad_is_connected(0)){
+//    scr_mover_gamepad_gremlin(0);
 
-}
+//}
 //scr_jumper_gamepad_gremlin(0);
 //scr_sucker_down_gremlin();
 //scr_rotator_gamepad_gremlin(0);
 //scr_limit_velocity_gremlin();
 //scr_step_grip_and_grep();
 
-//gx = device_get_tilt_y() * 1400;
+gx = device_get_tilt_x() * -1400;
 //gy = device_get_tilt_x() * 1000;
-//physics_apply_torque(gx);
-//physics_apply_force(phy_com_x,phy_com_y,gx,0);
+physics_apply_torque(gx);
+physics_apply_force(phy_com_x,phy_com_y,gx,0);
 
 </string>
           </argument>

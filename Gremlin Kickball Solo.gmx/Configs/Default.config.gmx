@@ -8,8 +8,8 @@
     <option_android_advertising_key></option_android_advertising_key>
     <option_android_advertising_type>MoPub</option_android_advertising_type>
     <option_android_amazon_game_circle>0</option_android_amazon_game_circle>
-    <option_android_amazon_gc_achievements>-1</option_android_amazon_gc_achievements>
-    <option_android_amazon_gc_leaderboards>-1</option_android_amazon_gc_leaderboards>
+    <option_android_amazon_gc_achievements>0</option_android_amazon_gc_achievements>
+    <option_android_amazon_gc_leaderboards>0</option_android_amazon_gc_leaderboards>
     <option_android_amazon_gc_whispersync>0</option_android_amazon_gc_whispersync>
     <option_android_amazon_iap>0</option_android_amazon_iap>
     <option_android_apk_expansion>0</option_android_apk_expansion>
@@ -29,7 +29,7 @@
     <option_android_google_play_id></option_android_google_play_id>
     <option_android_google_tracking_id></option_android_google_tracking_id>
     <option_android_iap_suppress_toast>false</option_android_iap_suppress_toast>
-    <option_android_icade_support>-1</option_android_icade_support>
+    <option_android_icade_support>0</option_android_icade_support>
     <option_android_icon_170>Configs\Default\android\icons\icon170.png</option_android_icon_170>
     <option_android_icon_36>Configs\Default\android\icons\icon36.png</option_android_icon_36>
     <option_android_icon_48>Configs\Default\android\icons\icon48.png</option_android_icon_48>
@@ -42,11 +42,11 @@
     <option_android_minor_version>0</option_android_minor_version>
     <option_android_orient_landscape>true</option_android_orient_landscape>
     <option_android_orient_portrait>true</option_android_orient_portrait>
-    <option_android_orientation>1</option_android_orientation>
+    <option_android_orientation>0</option_android_orientation>
     <option_android_ouya_icon>Configs\Default\android\icons\ouyaIcon.png</option_android_ouya_icon>
-    <option_android_package_company>companyname</option_android_package_company>
+    <option_android_package_company>coltonphillips</option_android_package_company>
     <option_android_package_domain>com</option_android_package_domain>
-    <option_android_package_product>Gremlin_Kickball_Solo</option_android_package_product>
+    <option_android_package_product>gremlinkickballsolo</option_android_package_product>
     <option_android_permission_flags>8</option_android_permission_flags>
     <option_android_pocketchange_enable>0</option_android_pocketchange_enable>
     <option_android_pocketchange_id></option_android_pocketchange_id>
