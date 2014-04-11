@@ -98,6 +98,7 @@ gx = device_get_tilt_x() * -1400;
 physics_apply_torque(gx);
 physics_apply_force(phy_com_x,phy_com_y,gx,0);
 
+immersion_play_effect(27);
 </string>
           </argument>
         </arguments>

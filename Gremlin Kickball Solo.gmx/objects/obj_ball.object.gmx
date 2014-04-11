@@ -50,6 +50,7 @@ extra_gravity = -1.0;
           <argument>
             <kind>1</kind>
             <string>physics_apply_force(phy_com_x,phy_com_y,0,extra_gravity);
+
 </string>
           </argument>
         </arguments>
@@ -72,7 +73,10 @@ extra_gravity = -1.0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>highscore_add("",score)
+            <string>highscore_add("",score);
+ini_open('Settings.ini');
+ini_write_string('Score','hs',string(score));
+ini_close();
 room_restart();
 </string>
           </argument>
@@ -98,7 +102,8 @@ room_restart();
             <kind>1</kind>
             <string>//if (scr_chance(100)) {image_alpha -= 0.1;}
 //image_index = 0;
-extra_gravity+= 1.1;
+extra_gravity+= 2.1;
+physics_apply_impulse(phy_com_x,phy_com_y,0,-10);
 </string>
           </argument>
         </arguments>
