@@ -19,9 +19,9 @@
     <option_android_arch_mipsr2>false</option_android_arch_mipsr2>
     <option_android_arch_mipsr2sf>false</option_android_arch_mipsr2sf>
     <option_android_arch_x86>True</option_android_arch_x86>
-    <option_android_build_version>5</option_android_build_version>
+    <option_android_build_version>0</option_android_build_version>
     <option_android_color_depth>0</option_android_color_depth>
-    <option_android_display_name>Battery Drainer</option_android_display_name>
+    <option_android_display_name>Gremlin Kickball</option_android_display_name>
     <option_android_flurry_enable>0</option_android_flurry_enable>
     <option_android_flurry_id></option_android_flurry_id>
     <option_android_google_analytics_enable>0</option_android_google_analytics_enable>
@@ -38,15 +38,15 @@
     <option_android_interpolate>0</option_android_interpolate>
     <option_android_licensing_enable>0</option_android_licensing_enable>
     <option_android_licensing_key></option_android_licensing_key>
-    <option_android_major_version>1</option_android_major_version>
-    <option_android_minor_version>0</option_android_minor_version>
+    <option_android_major_version>4</option_android_major_version>
+    <option_android_minor_version>2</option_android_minor_version>
     <option_android_orient_landscape>true</option_android_orient_landscape>
     <option_android_orient_portrait>true</option_android_orient_portrait>
     <option_android_orientation>0</option_android_orientation>
     <option_android_ouya_icon>Configs\Default\android\icons\ouyaIcon.png</option_android_ouya_icon>
     <option_android_package_company>coltonphillips</option_android_package_company>
     <option_android_package_domain>com</option_android_package_domain>
-    <option_android_package_product>batterydrainer</option_android_package_product>
+    <option_android_package_product>gremlinkickballup</option_android_package_product>
     <option_android_permission_flags>0</option_android_permission_flags>
     <option_android_pocketchange_enable>0</option_android_pocketchange_enable>
     <option_android_pocketchange_id></option_android_pocketchange_id>
