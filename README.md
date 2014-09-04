@@ -1,4 +1,4 @@
 gremlin-kickball-solo
 =====================
 
-a game for one
+A single player game where you keep the ball up in the air.
